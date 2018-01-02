@@ -1,6 +1,6 @@
 Fitch-style rules for Propositional Logic:
 
-1. Repeat
+1. repeat
 | A 
 |--------- 
 | A 
@@ -14,32 +14,32 @@ Fitch-style rules for Propositional Logic:
 | If B: 
 |--------- 
 |     A. 
-4. Imply-create
+4. imply-create
 | If A: 
 |     B. 
 |---------- 
 | A => B. 
-5. Imply-destroy
+5. imply-destroy
 | A. 
 | A => B. 
 |----------- 
 | B. 
-6. And-create 
+6. and-create 
 | A. 
 | B. 
 |------- 
 | A and B. 
-7. And-destroy 
+7. and-destroy 
 | A and B. 
 |--------- 
 | A. 
 | B. 
-8. Or-Create 
+8. or-Create 
 | A. 
 |--------- 
 | A or B. 
 | B or A. 
-9. Or-destroy 
+9. or-destroy 
 | A or B. 
 | If A:
 |     C.
