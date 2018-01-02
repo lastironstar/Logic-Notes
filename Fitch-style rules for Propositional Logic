@@ -15,7 +15,7 @@ Fitch-style rules for Propositional Logic:
 |--------- 
 |     A. 
 4. Imply-create
-| if A: 
+| If A: 
 |     B. 
 |---------- 
 | A => B. 
