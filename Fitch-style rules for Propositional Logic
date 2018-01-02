@@ -1,10 +1,10 @@
 Fitch-style rules for Propositional Logic:
 
-1. Repeat: 
+1. Repeat
 | A 
 |--------- 
 | A 
-2. If-sub 
+2. If-sub
 | 
 |--------- 
 | If A: 
@@ -47,13 +47,13 @@ Fitch-style rules for Propositional Logic:
 |     C.
 |--------- 
 | C.
-10. not-destroy
-| not not A.
-|------------
-| A.
-11. not-create
+10. not-create
 | If A:
 |     B.
 |     not B.
 |-------------
 | not A.
+11. not-destroy
+| not not A.
+|------------
+| A.
