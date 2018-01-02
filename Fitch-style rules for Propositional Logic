@@ -1,0 +1,59 @@
+Fitch-style rules for Propositional Logic:
+
+1. Repeat: 
+| A 
+|--------- 
+| A 
+2. If-sub 
+| 
+|--------- 
+| If A: 
+|      A. 
+3. If-repeat 
+| A 
+| If B: 
+|--------- 
+|     A. 
+4. Imply-create
+| if A: 
+|     B. 
+|---------- 
+| A => B. 
+5. Imply-destroy
+| A. 
+| A => B. 
+|----------- 
+| B. 
+6. And-create 
+| A. 
+| B. 
+|------- 
+| A and B. 
+7. And-destroy 
+| A and B. 
+|--------- 
+| A. 
+| B. 
+8. Or-Create 
+| A. 
+|--------- 
+| A or B. 
+| B or A. 
+9. Or-destroy 
+| A or B. 
+| If A:
+|     C.
+| If B:
+|     C.
+|--------- 
+| C.
+10. not-destroy
+| not not A.
+|------------
+| A.
+11. not-create
+| If A:
+|     B.
+|     not B.
+|-------------
+| not A.
