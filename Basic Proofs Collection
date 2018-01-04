@@ -1,0 +1,13 @@
+e.g. 0
+A or not A is a theorem
+Proof:
+if not ( A or not A ):
+	not( A or not A ).  [If-sub]
+	if A:
+		not( A or not A ). [if-repeat]
+		A. [If-sub]
+		A or not A. [or-create]
+	not A. [contradiction]
+	A or not A. [or-create]
+not not( A or not A). [contradiction]
+A or not A. [not-destroy]
