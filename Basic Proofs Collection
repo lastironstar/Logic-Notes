@@ -11,3 +11,18 @@ if not ( A or not A ):
 	A or not A. [or-create]
 not not( A or not A). [not-create]
 A or not A. [not-destroy]
+!End Proof!
+
+e.g. 1
+not A => (A => B) is a theorem
+Proof:
+If not A:
+	If A:
+		If not B:
+			A.
+			not A.
+		not not B.
+		B.
+	A => B.
+not A => (A => B).
+!End Proof!
