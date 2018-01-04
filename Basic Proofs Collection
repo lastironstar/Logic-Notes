@@ -9,5 +9,5 @@ if not ( A or not A ):
 		A or not A. [or-create]
 	not A. [contradiction]
 	A or not A. [or-create]
-not not( A or not A). [contradiction]
+not not( A or not A). [not-create]
 A or not A. [not-destroy]
